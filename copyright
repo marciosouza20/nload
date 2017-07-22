@@ -1,0 +1,56 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: nload
+Source: http://www.roland-riegel.de/nload/
+
+Files: *
+Copyright: 2001      Anthony Mallet <anthony.mallet@useless-ficus.net>
+           2001      Bill Wilson <bill@gkrellm.net>
+           2001      Daisuke Yabuki <dxy@acm.org>
+           2001      Hajimu Umemoto <ume@mahoroba.org>
+           2001-2002 Helder Correia <helder.correia@netcabo.pt>
+           2001-2012 Roland Riegel <feedback@roland-riegel.de>
+License: GPL-2
+
+Files: src/devreader-hpux.cpp
+Copyright: 1998-2003 Hewlett-Packard Company
+License: GPL-2 or special
+
+Files: debian/*
+Copyright: 2001-2002 Brandon L. Griffith <brandon@debian.org>
+           2002      LaMont Jones <lamont@debian.org>
+           2004-2005 Jeroen van Wolffelaar <jeroen@wolffelaar.nl>
+           2008      Luk Claes <luk@debian.org>
+           2009      Cyril Brulebois <kibi@debian.org>
+           2010-2012 Giuseppe Iuculano <iuculano@debian.org>
+           2017      Marcio de Souza Oliveira <m.desouza20@gmail.com>
+License: GPL-2
+
+License: GPL-2
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License
+ any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: special
+ Permission to use, copy, modify, and distribute this software and its
+ documentation for any purpose and without fee is hereby granted,
+ provided that the above copyright notice appear in all copies and
+ that both that copyright notice and this permission notice appear in
+ supporting  documentation, and that the name of Hewlett-Packard Company
+ not be used in advertising or publicity pertaining to distribution
+ of the software without specific, written prior permission.
+ .
+ Hewlett-Packard makes no representations about the suitability of this
+ software for any purpose. It is provided "as is" without express
+ or implied warranty.

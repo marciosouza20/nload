@@ -1,0 +1,156 @@
+nload (0.7.4-2) unstable; urgency=medium
+
+  * New maintainer. Thanks Giuseppe, Cyril, Luk, Jereon,
+    LaMont and Brandon. (Closes: #866829)
+  * Bumped DH level to 10.
+  * debian/control:
+      - Bumped Standards-Version to 4.0.0.
+      - Updated Build-Depends.
+      - Updated the maintainer.
+      - Updated Vcs-git and Vcs-Browser.
+  * debian/copyright:
+      - Updated to format standard machine-readable.
+      - Updated file.
+  * debian/rules:
+      - Updated to small format. (Closes: #846901)
+  * Removed the files debian/README.source and debian/docs.
+
+ -- Marcio de Souza Oliveira <m.desouza20@gmail.com>  Tue, 11 Jul 2017 01:08:44 +0000
+
+nload (0.7.4-1) unstable; urgency=low
+
+  * [29fb6c5] Imported Upstream version 0.7.4
+    - Fixed incorrect output with amd64 kernel (Closes: #651848)
+
+ -- Giuseppe Iuculano <iuculano@debian.org>  Mon, 28 May 2012 11:35:48 +0200
+
+nload (0.7.3-1) unstable; urgency=low
+
+  * [c95fdb8] Imported Upstream version 0.7.3
+    Fix calculation of traffic and data units (Closes: #586943)
+  * [8ae480b] Refreshed patches, removed 02_fix_hyphen-used-as-minus-sign.patch
+    applied upstream
+  * [9c5e570] Bump to Standards-Version 3.9.2, no changes needed
+
+ -- Giuseppe Iuculano <iuculano@debian.org>  Sun, 19 Jun 2011 13:07:19 +0200
+
+nload (0.7.2-1) unstable; urgency=low
+
+  * [8119e24] Imported Upstream version 0.7.2 (Closes: #490384)
+    + Now /etc/nload.conf and $HOME/.nload are used for config 
+      (Closes: #247030)
+  * [ae4c21e] Switch to quilt
+    + 01_remove_strip_from_makefile.dpatch, remove install-strip directive
+      (Closes: #437640)
+  * [f7dba3c] Install upstream manpage and use dh_installman (Closes: #222170)
+  * [6a6f788] Use "[ ! -f Makefile ] || $(MAKE) distclean" instead of 
+    "-make distclean"
+  * [cee760c] Remove "a" article from synopsis (developers-reference
+    6.2.2)
+  * [291c73e] Added Homepage field
+  * [72d1b2c] Adopt nload, thanks to Jeroen van Wolffelaar for the prior
+    work on nload (Closes: #575525)
+  * [47538ea] Copy config.sub and config.guess in config section and
+    added autotools-dev in Build-depends
+  * [36cdef4] Added --sysconfdir=/etc in configure and CFLAGS in
+    configure
+  * [59c16ba] Added debian/README.source
+  * [da0e3d2] Set debhelper compatibility level to 7
+  * [3ed8edb] Bumped Standard version to 3.8.4
+  * [c29bb1a] Use dh_prep instead of dh_clean -k
+  * [e9481fa] Switch to dpkg-source 3.0 (quilt) format
+  * [7f62826] Updated copyright
+  * [7321f86] Added VCS control fields
+
+ -- Giuseppe Iuculano <iuculano@debian.org>  Sat, 27 Mar 2010 12:00:40 +0100
+
+nload (0.6.0-3.2) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Fix FTBFS on GNU/kFreeBSD: Also test whether defined(__GLIBC__), not
+    only whether defined(HAVE_LINUX) in src/proc.cpp (Closes: #542532).
+
+ -- Cyril Brulebois <kibi@debian.org>  Mon, 07 Dec 2009 11:14:54 +0100
+
+nload (0.6.0-3.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Fix FTBFS with GCC 4.3 (Closes: #417449).
+
+ -- Luk Claes <luk@debian.org>  Thu, 13 Mar 2008 22:55:34 +0000
+
+nload (0.6.0-3) unstable; urgency=low
+
+  * Apply patch by Paul Brook <paul@nowt.org> so that nload works correctly on
+    64-bit kernels (Closes: #300267)
+  * Bump to policy 3.6.2 (no changes needed)
+  * Bump debhelper from level 3 to 5
+  * Improve debian/copyright file
+  * Add watch file
+
+ -- Jeroen van Wolffelaar <jeroen@wolffelaar.nl>  Tue, 29 Nov 2005 20:18:27 +0000
+
+nload (0.6.0-2) unstable; urgency=low
+
+  * Fixed SIGSEGV when /proc/net/dev doesn't exist
+  * Tweak description (fixes lintian warning)
+  * Tweak Build-Depends to be better human readable
+  * This was missing from the 0.6.0-1 changelog:
+    + config.{sub,guess} updated (from now on automatically) (Closes: #114994)
+    + NMU compile fixes for hppa were fixed in upstream, no longer Debian patch
+
+ -- Jeroen van Wolffelaar <jeroen@wolffelaar.nl>  Wed, 14 Jan 2004 00:42:23 +0100
+
+nload (0.6.0-1) unstable; urgency=low
+
+  * Temporary new maintainer: Jeroen van Wolffelaar
+  * Sponsored by Amaya Rodrigo <amaya@debian.org>
+  * New upstream version
+  * Remove debian manpage, upstream has one now (partially fixes #222170)
+  * Fix debian/rules to execute upstream's `make install' properly
+  * Acknowledge compile-fixes in NMU (Closes: #141920)
+
+ -- Jeroen van Wolffelaar <jeroen@wolffelaar.nl>  Mon, 12 Jan 2004 13:48:53 +0100
+
+nload (0.4.0-1.1) unstable; urgency=low
+
+  * NMU
+  * Fix g++ 3.0 errors.  Closes: #141920
+
+ -- LaMont Jones <lamont@debian.org>  Sun, 14 Apr 2002 18:10:18 -0600
+
+nload (0.4.0-1) unstable; urgency=low
+
+  * New upstream release
+    Closes: #134061 
+
+ -- Brandon L. Griffith <brandon@debian.org>  Thu,  4 Apr 2002 07:54:40 -0500
+
+nload (0.3.2-2) unstable; urgency=low
+
+  * Fixed spelling error in description.
+    Closes: #125188
+
+ -- Brandon L. Griffith <brandon@debian.org>  Mon, 31 Dec 2001 13:41:04 -0500
+
+nload (0.3.2-1) unstable; urgency=low
+
+  * New upstream release
+  * Author has fixed the 4096 MB reset bug
+    Closes: #114255
+
+ -- Brandon L. Griffith <brandon@debian.org>  Mon, 19 Nov 2001 08:47:02 -0500
+
+nload (0.3.0-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Brandon L. Griffith <brandon@debian.org>  Tue, 25 Sep 2001 18:15:23 -0400
+
+nload (0.2.2-1) unstable; urgency=low
+
+  * Initial Release.
+  * Threw together a manpage for nload since the author did not supply one.
+
+ -- Brandon L. Griffith <brandon@debian.org>  Sun, 26 Aug 2001 16:33:16 -0400
+
