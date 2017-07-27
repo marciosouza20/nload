@@ -3,17 +3,17 @@ Upstream-Name: nload
 Source: http://www.roland-riegel.de/nload/
 
 Files: *
-Copyright: 2001      Anthony Mallet <anthony.mallet@useless-ficus.net>
-           2001      Bill Wilson <bill@gkrellm.net>
-           2001      Daisuke Yabuki <dxy@acm.org>
-           2001      Hajimu Umemoto <ume@mahoroba.org>
+Copyright: ?         Anthony Mallet <anthony.mallet@useless-ficus.net>
+           ?         Bill Wilson <bill@gkrellm.net>
+           ?         Daisuke Yabuki <dxy@acm.org>
+           ?         Hajimu Umemoto <ume@mahoroba.org>
            2001-2002 Helder Correia <helder.correia@netcabo.pt>
            2001-2012 Roland Riegel <feedback@roland-riegel.de>
 License: GPL-2+
 
 Files: src/devreader-hpux.cpp
 Copyright: 1998-2003 Hewlett-Packard Company
-License: GPL-2+ or MIT
+License: GPL-2+ and MIT
 
 Files: debian/*
 Copyright: 2001-2002 Brandon L. Griffith <brandon@debian.org>
