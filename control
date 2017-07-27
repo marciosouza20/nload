@@ -1,8 +1,8 @@
 Source: nload
 Section: net
-Priority: extra
+Priority: optional
 Maintainer: Marcio de Souza Oliveira <m.desouza20@gmail.com>
-Build-Depends: debhelper (>= 10), libncurses5-dev, autotools-dev
+Build-Depends: debhelper (>= 10), libncurses5-dev
 Standards-Version: 4.0.0
 Homepage: http://www.roland-riegel.de/nload/
 Vcs-git: https://github.com/marciosouza20/nload.git

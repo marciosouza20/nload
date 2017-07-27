@@ -1,2 +1,2 @@
-version=2
+version=4
 http://www.roland-riegel.de/nload/ (?:.*/)?nload-?_?([\d+\.]+|\d+)\.tar.*

@@ -9,11 +9,11 @@ Copyright: 2001      Anthony Mallet <anthony.mallet@useless-ficus.net>
            2001      Hajimu Umemoto <ume@mahoroba.org>
            2001-2002 Helder Correia <helder.correia@netcabo.pt>
            2001-2012 Roland Riegel <feedback@roland-riegel.de>
-License: GPL-2
+License: GPL-2+
 
 Files: src/devreader-hpux.cpp
 Copyright: 1998-2003 Hewlett-Packard Company
-License: GPL-2 or special
+License: GPL-2+ or MIT
 
 Files: debian/*
 Copyright: 2001-2002 Brandon L. Griffith <brandon@debian.org>
@@ -23,13 +23,13 @@ Copyright: 2001-2002 Brandon L. Griffith <brandon@debian.org>
            2009      Cyril Brulebois <kibi@debian.org>
            2010-2012 Giuseppe Iuculano <iuculano@debian.org>
            2017      Marcio de Souza Oliveira <m.desouza20@gmail.com>
-License: GPL-2
+License: GPL-2+
 
-License: GPL-2
+License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License
- any later version.
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
  .
  This package is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -42,7 +42,7 @@ License: GPL-2
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
 
-License: special
+License: MIT
  Permission to use, copy, modify, and distribute this software and its
  documentation for any purpose and without fee is hereby granted,
  provided that the above copyright notice appear in all copies and

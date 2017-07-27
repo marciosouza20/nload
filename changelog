@@ -5,6 +5,7 @@ nload (0.7.4-2) unstable; urgency=medium
   * Bumped DH level to 10.
   * debian/control:
       - Bumped Standards-Version to 4.0.0.
+      - Changed Priority to optional.
       - Updated Build-Depends.
       - Updated the maintainer.
       - Updated Vcs-git and Vcs-Browser.
@@ -13,6 +14,8 @@ nload (0.7.4-2) unstable; urgency=medium
       - Updated file.
   * debian/rules:
       - Updated to small format. (Closes: #846901)
+  * debian/watch:
+      - Updated to version 4.
   * Removed the files debian/README.source and debian/docs.
 
  -- Marcio de Souza Oliveira <m.desouza20@gmail.com>  Tue, 11 Jul 2017 01:08:44 +0000
